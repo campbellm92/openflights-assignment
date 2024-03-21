@@ -17,7 +17,7 @@ function mergeDataSets(flights, airports) {
     });
 }
 const mergedData = mergeDataSets(flights, airports);
-console.log(mergedData);
+//console.log(mergedData);
 
 // write new .json file of merged data
 const mergedJsonDataString = JSON.stringify(mergedData, null, 2);
@@ -30,9 +30,13 @@ fs.writeFile("mergedFlightsData.json", mergedJsonDataString, error => {
 });
 
 
-// mapping function
-const mergedFlightsData = mergedData.map(data => {
+// mapping function 
+// add counter for flight number
+let flightNumCounter = 10001;
+const mergedFlightsDataMap = mergedData.map(data => {
+    const flightNumber = flightNumCounter++;
     return {
+    "Flight Number": flightNumber,
     "Source Airport": data.source_airport,
     "Destination Airport": data.destination_airport,
     "Airline Name": data.airline_name,
@@ -43,9 +47,13 @@ const mergedFlightsData = mergedData.map(data => {
     "Timestamp": new Date().getTime()
     }
 });
-console.log(mergedFlightsData);
+//console.log(mergedFlightsDataMap);
 
 
+module.exports = {
+    mergedData,
+    mergedFlightsDataMap
+};
 
 
 
