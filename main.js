@@ -31,8 +31,7 @@ fs.writeFile("mergedFlightsData.json", mergedJsonDataString, error => {
 
 
 // mapping function 
-// add counter for flight number
-let flightNumCounter = 10001;
+let flightNumCounter = 10001;  // add counter for flight number
 const mergedFlightsDataMap = mergedData.map(data => {
     const flightNumber = flightNumCounter++;
     return {
@@ -42,12 +41,32 @@ const mergedFlightsDataMap = mergedData.map(data => {
     "Airline Name": data.airline_name,
     "Airline Country": data.airline_country,
     "Aircraft": data.aircraft,
+    "Codeshare": data.codeshare,
     "Iata Code": data.iata,
     "Timezone": data.timezone,
-    "Timestamp": new Date().getTime()
+    "Timestamp": new Date().toISOString()
     }
 });
-//console.log(mergedFlightsDataMap);
+console.log(mergedFlightsDataMap);
+
+
+// function for counting amount of flights on a particular route
+// Approach:
+// count number by sourceID?
+// make function to return array based on sourceID, then 
+// 
+
+/*
+let routeCounter = 0;
+function getTotalOfRoute(sourceID, destinationID) {
+    flights.forEach(route => {
+        if (flights.)
+    }
+}
+(source airport && destination airport )++
+*/
+
+
 
 
 module.exports = {

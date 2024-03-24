@@ -6,7 +6,7 @@ function getFlightByFlightNum(mergedFlightsDataMap, flightNum) {
     return mergedFlightsDataMap.find(getFlight => getFlight["Flight Number"] === flightNum)
     };
 const flight = getFlightByFlightNum(mergedFlightsDataMap, 10600);
-console.log(flight);
+//console.log(flight);
 
 // function for finding flight by source airport
 
@@ -21,7 +21,7 @@ function getFlightBySourceAirport(mergedFlightsDataMap, source) {
     return sourceAirportArr;
 };
 const sourceAirport = getFlightBySourceAirport(mergedFlightsDataMap, "ADL");
-console.log(sourceAirport);
+//console.log(sourceAirport);
 
 
 
@@ -38,14 +38,38 @@ function getFlightByDestinationAirport(mergedFlightsDataMap, destination) {
     return destinationAirportArr;
 };
 const destinationAirport = getFlightByDestinationAirport(mergedFlightsDataMap, "BNE");
-console.log(destinationAirport);
+//console.log(destinationAirport);
 
 
 // function for finding flight by codeshare
 
+function getFlightByCodeshare(mergedFlightsDataMap, codeshareValue) {
+    let codeshareArr = [];
+    mergedFlightsDataMap.forEach(flight => {
+        if (flight["Codeshare"] === codeshareValue) {
+            codeshareArr.push(flight)
+        }
+    });
+        return codeshareArr
+};
+const flightByCodeshareValue = getFlightByCodeshare(mergedFlightsDataMap, false);
+//console.log(flightByCodeshareValue); // returning empty array; update: use bracket notation instead of dot notation
 
 
+// const codeshareFindTrue = mergedFlightsDataMap.find(flightCodeshare => flightCodeshare.codeshare)
+// ^cumbersome
 
 // function for finding flight by airline name
+
+function getFlightByAirlineName(mergedFlightsDataMap, airlineName) {
+    return mergedFlightsDataMap.filter(function(element) { // function taken as argument/ callback function
+            return element["Airline Name"] === airlineName;
+    });
+}
+const flightsByAirlineName = getFlightByAirlineName(mergedFlightsDataMap, "Sharp Airlines")
+console.log(flightsByAirlineName);
+
+
+// function for finding flight by aircraft type
 
 
