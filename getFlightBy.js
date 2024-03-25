@@ -14,7 +14,7 @@ function getFlightBySourceAirport(mergedFlightsDataMap, source) {
     let sourceAirportArr = [];
     for (let i = 0; i < mergedFlightsDataMap.length; i++) {
         let sourcePorts = mergedFlightsDataMap[i]; 
-        if (sourcePorts["Source Airport"] === source) {
+        if (sourcePorts.source_airport.iata === source) {
             sourceAirportArr.push(sourcePorts);
         }
     }
@@ -31,7 +31,7 @@ function getFlightByDestinationAirport(mergedFlightsDataMap, destination) {
     let destinationAirportArr = [];
     for (let i = 0; i < mergedFlightsDataMap.length; i++) {
         let destinationPorts = mergedFlightsDataMap[i]; 
-        if (destinationPorts["Destination Airport"] === destination) {
+        if (destinationPorts.destination_airport.iata === destination) {
             destinationAirportArr.push(destinationPorts);
         }
     }
@@ -41,12 +41,13 @@ const destinationAirport = getFlightByDestinationAirport(mergedFlightsDataMap, "
 //console.log(destinationAirport);
 
 
+
 // function for finding flight by codeshare
 
 function getFlightByCodeshare(mergedFlightsDataMap, codeshareValue) {
     let codeshareArr = [];
     mergedFlightsDataMap.forEach(flight => {
-        if (flight["Codeshare"] === codeshareValue) {
+        if (flight.codeshare === codeshareValue) {
             codeshareArr.push(flight)
         }
     });
@@ -59,17 +60,30 @@ const flightByCodeshareValue = getFlightByCodeshare(mergedFlightsDataMap, false)
 // const codeshareFindTrue = mergedFlightsDataMap.find(flightCodeshare => flightCodeshare.codeshare)
 // ^cumbersome
 
+
+
 // function for finding flight by airline name
 
 function getFlightByAirlineName(mergedFlightsDataMap, airlineName) {
     return mergedFlightsDataMap.filter(function(element) { // function taken as argument/ callback function
-            return element["Airline Name"] === airlineName;
+            return element.airline.name === airlineName;
     });
 }
 const flightsByAirlineName = getFlightByAirlineName(mergedFlightsDataMap, "Sharp Airlines")
-console.log(flightsByAirlineName);
+//console.log(flightsByAirlineName);
+
+
 
 
 // function for finding flight by aircraft type
+
+function getFlightByAircraftType(mergedFlightsDataMap, aircraftType) {
+    return mergedFlightsDataMap.filter(function (element){
+        return element.aircraft.includes(aircraftType) // wasn't working with equality operator, changed to .includes
+    });
+}
+const flightsByAircraft = getFlightByAircraftType(mergedFlightsDataMap, "Fairchild Swearingen Metroliner")
+//console.log(flightsByAircraft);
+
 
 

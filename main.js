@@ -5,6 +5,49 @@ const airports = JSON.parse(airportsData);
 const flights = JSON.parse(flightsData);
 
 // merge the datasets
+
+function mergeDataSets(flights, airports) {
+    return flights.map(flight => {
+        const sourceAirportData = airports.find(airport => airport.id === flight.source_airport_id);
+        const destinationAirportData = airports.find(airport => airport.id === flight.destination_airport_id);
+
+        return {
+            source_airport: {
+                id: sourceAirportData.id,
+                name: sourceAirportData.name,
+                city: sourceAirportData.city,
+                country: sourceAirportData.country,
+                iata: sourceAirportData.iata,
+                latitude: sourceAirportData.latitude,
+                longitude: sourceAirportData.longitude,
+                timezone: sourceAirportData.timezone
+            },
+            destination_airport: {
+                id: destinationAirportData.id,
+                name: destinationAirportData.name,
+                city: destinationAirportData.city,
+                country: destinationAirportData.country,
+                iata: destinationAirportData.iata,
+                latitude: destinationAirportData.latitude,
+                longitude: destinationAirportData.longitude,
+                timezone: destinationAirportData.timezone
+            },
+            codeshare: flight.codeshare,
+            aircraft: flight.aircraft,
+            airline: {
+                code: flight.airline,  
+                name: flight.airline_name,
+                country: flight.airline_country
+            }
+        };
+    });
+}
+
+const mergedData = mergeDataSets(flights, airports);
+//console.log(mergedData);
+
+
+/* had to get rid of this b/c only returning flight details for the source airport
 function mergeDataSets(flights, airports) {
     return flights.map(flight => {
         const idIsSame = airports.find(airport => airport.id === flight.source_airport_id);
@@ -18,6 +61,8 @@ function mergeDataSets(flights, airports) {
 }
 const mergedData = mergeDataSets(flights, airports);
 //console.log(mergedData);
+*/
+
 
 // write new .json file of merged data
 const mergedJsonDataString = JSON.stringify(mergedData, null, 2);
@@ -36,18 +81,11 @@ const mergedFlightsDataMap = mergedData.map(data => {
     const flightNumber = flightNumCounter++;
     return {
     "Flight Number": flightNumber,
-    "Source Airport": data.source_airport,
-    "Destination Airport": data.destination_airport,
-    "Airline Name": data.airline_name,
-    "Airline Country": data.airline_country,
-    "Aircraft": data.aircraft,
-    "Codeshare": data.codeshare,
-    "Iata Code": data.iata,
-    "Timezone": data.timezone,
+    ...data,
     "Timestamp": new Date().toISOString()
     }
 });
-console.log(mergedFlightsDataMap);
+//console.log(mergedFlightsDataMap);
 
 
 // function for counting amount of flights on a particular route
@@ -122,21 +160,6 @@ mergedFlightsData.forEach(function(flights, airports) {
 
 */
 
-/* For the merged dataset I need:
-
-- codeshare and aircraft properties as is --> flightsData
-
-- include data from source_airport and destination_airport --> flightsData
---> can be done in two ways:
-1) Create a new object for each property that is a copy of the airport data for the corresponding airport 
-(including all properties that are in the airports JSON); 
-or 2) Keep the airports as a separate array and make each property a reference to the corresponding airport in that array.
-
-- include data of airlines in one of two ways:
-1) Keep them as individual properties in the flight object: "airline", "airline_name" and "airline_country"; 
-or 2) Create a single "airline" property that contains an airline object that has the code, name and origin country.
-
-*/
 
 
 /*
