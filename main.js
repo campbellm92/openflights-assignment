@@ -82,7 +82,7 @@ const mergedFlightsDataMap = mergedData.map(data => {
     return {
     "Flight Number": flightNumber,
     ...data,
-    "Timestamp": new Date().toISOString()
+    "Timestamp": new Date().toISOString() // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString
     }
 });
 //console.log(mergedFlightsDataMap);

@@ -13,8 +13,13 @@ async function loadMergedData() {
     };
 }
 loadMergedData();
+
+
+window.onload = function(){
+    document.getElementById("filterSourceAirportSelect").addEventListener("change", selectSourceAirport);
+    }
+
 /*
-document.getElementById("filterSourceAirportSelect").addEventListener("change", selectSourceAirport);
 document.getElementById("filterDestinationAirportSelect").addEventListener("change", selectDestinationAirport);
 document.getElementById("filterAirlineSelect").addEventListener("change", selectAirline);
 document.getElementById("filterAircraftSelect").addEventListener("change", selectAircraft);
@@ -22,24 +27,36 @@ document.getElementById("filterAircraftSelect").addEventListener("change", selec
 
 function populateDropdown(data) {
     const sourceAirportSelect = document.getElementById("filterSourceAirportSelect");
-    data.forEach(flight => {
-        const option = document.createElement("option");
-        option.value = flight.source_airport.name;
-        option.textContent = flight.source_airport.name;
-        sourceAirportSelect.appendChild(option);
-    })
-}
-populateDropdown();
-// 26.03: returning all instances!
+    let airportSingleInstanceArr = []; 
 
+    data.forEach(flight => {
+        const airportName = flight.source_airport.name;
+        if (!airportSingleInstanceArr.includes(airportName)) {
+            airportSingleInstanceArr.push(airportName); 
+            const option = document.createElement("option");
+            option.value = airportName; 
+            option.textContent = airportName; 
+            sourceAirportSelect.appendChild(option); 
+        }
+    });
+}
+
+// was returning all instances
+// fixed! by adding if clause in forEach https://www.geeksforgeeks.org/how-to-get-all-unique-values-remove-duplicates-in-a-javascript-array/
+
+
+
+function selectSourceAirport() {
+    const selectSource = document.getElementById("filterSourceAirportSelect");
+    const selectedAirport = selectSource.value;
+    const airportInfoDisplay = document.getElementById("flightFilterDisplayDiv");
+    airportInfoDisplay.textContent = `Flights from ${selectedAirport} to`
+    document.getElementById("flightFilterDisplayDiv")
+}
 
 
 
 /*
-function selectSourceAirport() {
-
-}
-
 function selectDestinationAirport() {
 
 }
@@ -61,29 +78,6 @@ function selectSourceAirport() {
     let selectSource = document.getElementById("filterSourceAirportSelect");
 }
 */
-
-
-
-
-
-
-/* MAY NOT NEED ANYMORE
-async function loadAirportsData() {
-    try {
-    const response = await fetch("./A2_Airports.json");
-    if (!response.ok) {
-        throw new Error("Failed to retrieve JSON data.");
-    };
-    const data = await response.json();
-    console.log(data);
-    return data;
-    }catch (error){
-        console.log("Error loading data", error);
-    };
-}
-loadAirportsData();
-*/
-
 
 
 /*

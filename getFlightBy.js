@@ -3,7 +3,7 @@ const {mergedData, mergedFlightsDataMap} = require("./main.js");
 
 // function to get flights by their flight number
 function getFlightByFlightNum(mergedFlightsDataMap, flightNum) {
-    return mergedFlightsDataMap.find(getFlight => getFlight["Flight Number"] === flightNum)
+    return mergedFlightsDataMap.find(getFlight => getFlight["Flight Number"] === flightNum) // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
     };
 const flight = getFlightByFlightNum(mergedFlightsDataMap, 10600);
 //console.log(flight);
