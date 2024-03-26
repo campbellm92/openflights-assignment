@@ -47,12 +47,12 @@ function countFlightsByIATA(mergedFlightsDataMap) { // need to rename as iata
     return flightCounts;
 }
 const flightCountsObj = countFlightsByIATA(mergedFlightsDataMap);
-console.log(flightCountsObj); 
+//console.log(flightCountsObj); 
 
 
 module.exports = {
     createRouteIdentifier,
-    countFlightsByID,
+    countFlightsByIATA,
     flightCountsObj
 };
 
