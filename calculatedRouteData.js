@@ -25,7 +25,14 @@ for (let i = 0; i < flightCountsArr.length; i++) {
 const averageRouteFrequency = Math.round(sumForAverage / flightCountsArr.length);
 console.log(averageRouteFrequency);
 
+// still need top 10 :
 
+
+
+module.exports = {
+    flightCountsArr,
+    averageRouteFrequency
+}
 
 
 /*  NOT WORKING

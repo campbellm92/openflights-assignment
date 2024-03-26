@@ -12,6 +12,7 @@ function createRouteIdentifier(flight) {
     }
 }
 */
+// not working:
 function createRouteIdentifier(flight) {
     let sourceIATA = flight.source_airport.iata;
     let destinationIATA = flight.destination_airport.iata;

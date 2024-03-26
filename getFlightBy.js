@@ -87,3 +87,17 @@ const flightsByAircraft = getFlightByAircraftType(mergedFlightsDataMap, "Fairchi
 
 
 
+module.exports = {
+    getFlightByFlightNum,
+    flight,
+    getFlightBySourceAirport,
+    sourceAirport,
+    getFlightByDestinationAirport,
+    destinationAirport, 
+    getFlightByCodeshare,
+    flightByCodeshareValue,
+    getFlightByAirlineName,
+    flightsByAirlineName,
+    getFlightByAircraftType,
+    flightsByAircraft
+}
