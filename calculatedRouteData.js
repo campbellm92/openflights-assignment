@@ -5,14 +5,22 @@ const {mergedData, mergedFlightsDataMap} = require("./main.js");
 const {createRouteIdentifier, countFlightsByID, flightCountsObj} = require("./routeIdentifier.js");
 
 const flightCountsArr = Object.values(flightCountsObj);
-console.log(flightCountsArr);
+//console.log(flightCountsArr);
 
 // find busiest route
-let maxValue = 0;
-flightCountsArr.forEach((element) => {
-    maxValue = Math.max(maxValue, element);
-});
-console.log(maxValue);
+function findBusiestRoute(flightCountsArr) {
+    let maxValue = 0;
+    flightCountsArr.forEach((element) => {
+        maxValue = Math.max(maxValue, element);
+    });
+    return maxValue;
+}
+const busiestRoute = findBusiestRoute(flightCountsArr);
+console.log(busiestRoute);
+
+
+
+//console.log(maxValue);
 // https://www.shecodes.io/athena?tag=Math.max%28%29+method#:~:text=In%20order%20to%20use%20the,to%20find%20into%20an%20array.
 // got rid of 'value' bc not in object
 
@@ -23,9 +31,18 @@ for (let i = 0; i < flightCountsArr.length; i++) {
     sumForAverage += flightCountsArr[i];
 }
 const averageRouteFrequency = Math.round(sumForAverage / flightCountsArr.length);
-console.log(averageRouteFrequency);
+//console.log(averageRouteFrequency);
 
 // still need top 10 :
+
+function getTopTen(flightCountsArr) {
+    let data = [... flightCountsArr];
+    data.sort(function(a,b) {return b - a;});
+    let topTen = data.slice(0,9)
+    return topTen
+}
+console.log(getTopTen(flightCountsArr));
+
 
 
 

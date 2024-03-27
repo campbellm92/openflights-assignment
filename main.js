@@ -44,10 +44,10 @@ function mergeDataSets(flights, airports) {
 }
 
 const mergedData = mergeDataSets(flights, airports);
-//console.log(mergedData);
+console.log(mergedData);
 
 
-/* had to get rid of this b/c only returning flight details for the source airport
+/* had to change this b/c only returning flight details for the source airport
 function mergeDataSets(flights, airports) {
     return flights.map(flight => {
         const idIsSame = airports.find(airport => airport.id === flight.source_airport_id);
@@ -75,9 +75,10 @@ fs.writeFile("mergedFlightsData.json", mergedJsonDataString, error => {
 });
 
 
-// mapping function 
+// mapping function
+function mapFlightData(mergedData) {
 let flightNumCounter = 10001;  // add counter for flight number
-const mergedFlightsDataMap = mergedData.map(data => {
+return mergedData.map(data => {
     const flightNumber = flightNumCounter++;
     return {
     "Flight Number": flightNumber,
@@ -85,7 +86,9 @@ const mergedFlightsDataMap = mergedData.map(data => {
     "Timestamp": new Date().toISOString() // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString
     }
 });
-//console.log(mergedFlightsDataMap);
+};
+const mergedFlightsDataMap = mapFlightData(mergedData);
+console.log(mergedFlightsDataMap);
 
 
 // function for counting amount of flights on a particular route
@@ -112,19 +115,6 @@ module.exports = {
     mergedFlightsDataMap
 };
 
-
-
-// create new file
-/*
-const jsonString = JSON.stringify(mergedFlightsData, null, 2);
-fs.writeFile("mergedFlightsData.json", jsonString, error => {
-    if(error) {
-        console.log("Error writing file.", error);
-    } else {
-        console.log("File written successfully.");
-    }
-});
-*/
 
 
 /*

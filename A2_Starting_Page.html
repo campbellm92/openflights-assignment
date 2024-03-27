@@ -1,7 +1,8 @@
 <html>
     <head>
         <title>IFQ714 Assessment 2 - Australian Flight Routes and Airports</title>
-        <script src="./DOM.js"></script> 
+        <script src="./DOM_flightsData_functions.js"></script> 
+        <script src="./DOM_airportData_functions.js"></script> 
     </head>
     <body>
         <h1>Australian Flight Routes and Airports</h1>
@@ -64,5 +65,15 @@
         <!-- If no flights meet the criteria, show a message in the div instead. -->
         <hr/>
         <div id="airportFilterDisplayDiv"></div>
+        <hr/>
+        <div>
+            <h2>Get flights by...</h2>
+            <button id="sourceAirportBtn">Source Airpoirt</button>
+            <button id="destinationAirportBtn">Destination Airpoirt</button>
+            <button id="airlineBtn">Airline</button>
+            <button id="Aircraft">Aircraft</button>
+            <div id="btnDisplayDiv"></div>
+        </div>
+
     </body>
 </html>
