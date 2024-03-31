@@ -3,6 +3,7 @@
         <title>IFQ714 Assessment 2 - Australian Flight Routes and Airports</title>
         <script src="./DOM_flightsData_functions.js"></script> 
         <script src="./DOM_airportData_functions.js"></script> 
+        <script src="./DOM_button_functions.js"></script> 
     </head>
     <body>
         <h1>Australian Flight Routes and Airports</h1>
@@ -67,13 +68,13 @@
         <div id="airportFilterDisplayDiv"></div>
         <hr/>
         <div>
-            <h2>Get flights by...</h2>
-            <button id="sourceAirportBtn">Source Airpoirt</button>
-            <button id="destinationAirportBtn">Destination Airpoirt</button>
-            <button id="airlineBtn">Airline</button>
-            <button id="Aircraft">Aircraft</button>
-            <div id="btnDisplayDiv"></div>
+            <h2>Show...</h2>
+            <button id="busiestRouteBtn">Busiest route</button>
+            <button id="topTenBtn">Top ten most popular routes</button>
+            <button id="averageFlightsBtn">Average number of flights across all routes</button>
         </div>
+        <hr/>
+        <div id="btnDisplayDiv"></div>
 
     </body>
 </html>

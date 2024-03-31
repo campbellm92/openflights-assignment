@@ -1,0 +1,2207 @@
+{
+  "Adelaide International Airport to/from Port Augusta Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Port Augusta Airport",
+    "flights": 1
+  },
+  "Wynyard Airport to/from King Island Airport": {
+    "source": "Wynyard Airport",
+    "destination": "King Island Airport",
+    "flights": 1
+  },
+  "Wynyard Airport to/from Launceston Airport": {
+    "source": "Wynyard Airport",
+    "destination": "Launceston Airport",
+    "flights": 1
+  },
+  "Flinders Island Airport to/from Launceston Airport": {
+    "source": "Flinders Island Airport",
+    "destination": "Launceston Airport",
+    "flights": 1
+  },
+  "King Island Airport to/from Wynyard Airport": {
+    "source": "King Island Airport",
+    "destination": "Wynyard Airport",
+    "flights": 1
+  },
+  "Launceston Airport to/from Wynyard Airport": {
+    "source": "Launceston Airport",
+    "destination": "Wynyard Airport",
+    "flights": 1
+  },
+  "Launceston Airport to/from Flinders Island Airport": {
+    "source": "Launceston Airport",
+    "destination": "Flinders Island Airport",
+    "flights": 1
+  },
+  "Melbourne Essendon Airport to/from Flinders Island Airport": {
+    "source": "Melbourne Essendon Airport",
+    "destination": "Flinders Island Airport",
+    "flights": 1
+  },
+  "Portland Airport to/from Melbourne Essendon Airport": {
+    "source": "Portland Airport",
+    "destination": "Melbourne Essendon Airport",
+    "flights": 1
+  },
+  "Port Augusta Airport to/from Adelaide International Airport": {
+    "source": "Port Augusta Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Groote Eylandt Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Groote Eylandt Airport",
+    "flights": 1
+  },
+  "Darwin International Airport to/from Groote Eylandt Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Groote Eylandt Airport",
+    "flights": 2
+  },
+  "Groote Eylandt Airport to/from Cairns International Airport": {
+    "source": "Groote Eylandt Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Groote Eylandt Airport to/from Darwin International Airport": {
+    "source": "Groote Eylandt Airport",
+    "destination": "Darwin International Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Cairns International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Cairns International Airport",
+    "flights": 8
+  },
+  "Cairns International Airport to/from Brisbane International Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 9
+  },
+  "Melbourne International Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 7
+  },
+  "Sydney Kingsford Smith International Airport to/from Melbourne International Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 7
+  },
+  "Brisbane International Airport to/from Blackall Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Blackall Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Longreach Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Longreach Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Rockhampton Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Rockhampton Airport",
+    "flights": 3
+  },
+  "Cairns International Airport to/from Gove Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Gove Airport",
+    "flights": 2
+  },
+  "Darwin International Airport to/from Alice Springs Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Alice Springs Airport",
+    "flights": 2
+  },
+  "Darwin International Airport to/from Gove Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Gove Airport",
+    "flights": 3
+  },
+  "Perth International Airport to/from Alice Springs Airport": {
+    "source": "Perth International Airport",
+    "destination": "Alice Springs Airport",
+    "flights": 2
+  },
+  "Rockhampton Airport to/from Brisbane International Airport": {
+    "source": "Rockhampton Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 3
+  },
+  "Adelaide International Airport to/from Brisbane International Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 5
+  },
+  "Adelaide International Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 5
+  },
+  "Alice Springs Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Alice Springs Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 3
+  },
+  "Brisbane International Airport to/from Adelaide International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 5
+  },
+  "Brisbane International Airport to/from Canberra International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Canberra International Airport",
+    "flights": 3
+  },
+  "Brisbane International Airport to/from Darwin International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Darwin International Airport",
+    "flights": 6
+  },
+  "Brisbane International Airport to/from Melbourne International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 5
+  },
+  "Brisbane International Airport to/from Perth International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Perth International Airport",
+    "flights": 4
+  },
+  "Brisbane International Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 5
+  },
+  "Brisbane International Airport to/from Townsville Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Townsville Airport",
+    "flights": 4
+  },
+  "Canberra International Airport to/from Brisbane International Airport": {
+    "source": "Canberra International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 3
+  },
+  "Canberra International Airport to/from Melbourne International Airport": {
+    "source": "Canberra International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 3
+  },
+  "Canberra International Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Canberra International Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 3
+  },
+  "Darwin International Airport to/from Brisbane International Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 6
+  },
+  "Darwin International Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 4
+  },
+  "Melbourne International Airport to/from Adelaide International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 5
+  },
+  "Melbourne International Airport to/from Brisbane International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 5
+  },
+  "Melbourne International Airport to/from Canberra International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Canberra International Airport",
+    "flights": 3
+  },
+  "Melbourne International Airport to/from Perth International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Perth International Airport",
+    "flights": 5
+  },
+  "Perth International Airport to/from Brisbane International Airport": {
+    "source": "Perth International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 4
+  },
+  "Perth International Airport to/from Melbourne International Airport": {
+    "source": "Perth International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 5
+  },
+  "Perth International Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Perth International Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 5
+  },
+  "Sydney Kingsford Smith International Airport to/from Adelaide International Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 5
+  },
+  "Sydney Kingsford Smith International Airport to/from Alice Springs Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Alice Springs Airport",
+    "flights": 3
+  },
+  "Sydney Kingsford Smith International Airport to/from Brisbane International Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 5
+  },
+  "Sydney Kingsford Smith International Airport to/from Canberra International Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Canberra International Airport",
+    "flights": 3
+  },
+  "Sydney Kingsford Smith International Airport to/from Cairns International Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Cairns International Airport",
+    "flights": 5
+  },
+  "Sydney Kingsford Smith International Airport to/from Darwin International Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Darwin International Airport",
+    "flights": 4
+  },
+  "Sydney Kingsford Smith International Airport to/from Perth International Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Perth International Airport",
+    "flights": 5
+  },
+  "Townsville Airport to/from Brisbane International Airport": {
+    "source": "Townsville Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 4
+  },
+  "Adelaide International Airport to/from Cairns International Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Darwin International Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Darwin International Airport",
+    "flights": 2
+  },
+  "Adelaide International Airport to/from Melbourne International Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 4
+  },
+  "Adelaide International Airport to/from Gold Coast Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Gold Coast Airport",
+    "flights": 2
+  },
+  "Adelaide International Airport to/from Perth International Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Perth International Airport",
+    "flights": 3
+  },
+  "Avalon Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Avalon Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Ayers Rock Connellan Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Ayers Rock Connellan Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Hobart International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Hobart International Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Hamilton Island Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Hamilton Island Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Launceston Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Launceston Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Mackay Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Mackay Airport",
+    "flights": 3
+  },
+  "Brisbane International Airport to/from Newcastle Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Newcastle Airport",
+    "flights": 3
+  },
+  "Brisbane International Airport to/from Proserpine Whitsunday Coast Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Proserpine Whitsunday Coast Airport",
+    "flights": 2
+  },
+  "Ballina Byron Gateway Airport to/from Melbourne International Airport": {
+    "source": "Ballina Byron Gateway Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Ballina Byron Gateway Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Ballina Byron Gateway Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 3
+  },
+  "Cairns International Airport to/from Adelaide International Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Darwin International Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Darwin International Airport",
+    "flights": 2
+  },
+  "Cairns International Airport to/from Melbourne International Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 4
+  },
+  "Cairns International Airport to/from Gold Coast Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Gold Coast Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Perth International Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Perth International Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 4
+  },
+  "Darwin International Airport to/from Adelaide International Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 2
+  },
+  "Darwin International Airport to/from Cairns International Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Cairns International Airport",
+    "flights": 2
+  },
+  "Darwin International Airport to/from Melbourne International Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 3
+  },
+  "Hobart International Airport to/from Brisbane International Airport": {
+    "source": "Hobart International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Hobart International Airport to/from Melbourne International Airport": {
+    "source": "Hobart International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 4
+  },
+  "Hobart International Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Hobart International Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 3
+  },
+  "Hamilton Island Airport to/from Brisbane International Airport": {
+    "source": "Hamilton Island Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Hamilton Island Airport to/from Melbourne International Airport": {
+    "source": "Hamilton Island Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 2
+  },
+  "Hamilton Island Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Hamilton Island Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 2
+  },
+  "Launceston Airport to/from Brisbane International Airport": {
+    "source": "Launceston Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Launceston Airport to/from Melbourne International Airport": {
+    "source": "Launceston Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 3
+  },
+  "Launceston Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Launceston Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 2
+  },
+  "Sunshine Coast Airport to/from Melbourne International Airport": {
+    "source": "Sunshine Coast Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 3
+  },
+  "Sunshine Coast Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Sunshine Coast Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 2
+  },
+  "Melbourne International Airport to/from Ballina Byron Gateway Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Ballina Byron Gateway Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Cairns International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Cairns International Airport",
+    "flights": 4
+  },
+  "Melbourne International Airport to/from Darwin International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Darwin International Airport",
+    "flights": 3
+  },
+  "Melbourne International Airport to/from Hobart International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Hobart International Airport",
+    "flights": 4
+  },
+  "Melbourne International Airport to/from Hamilton Island Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Hamilton Island Airport",
+    "flights": 2
+  },
+  "Melbourne International Airport to/from Launceston Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Launceston Airport",
+    "flights": 3
+  },
+  "Melbourne International Airport to/from Sunshine Coast Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Sunshine Coast Airport",
+    "flights": 3
+  },
+  "Melbourne International Airport to/from Newcastle Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Newcastle Airport",
+    "flights": 2
+  },
+  "Melbourne International Airport to/from Gold Coast Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Gold Coast Airport",
+    "flights": 3
+  },
+  "Melbourne International Airport to/from Townsville Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Townsville Airport",
+    "flights": 1
+  },
+  "Mackay Airport to/from Brisbane International Airport": {
+    "source": "Mackay Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 3
+  },
+  "Newcastle Airport to/from Brisbane International Airport": {
+    "source": "Newcastle Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 3
+  },
+  "Newcastle Airport to/from Melbourne International Airport": {
+    "source": "Newcastle Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 2
+  },
+  "Newcastle Airport to/from Gold Coast Airport": {
+    "source": "Newcastle Airport",
+    "destination": "Gold Coast Airport",
+    "flights": 1
+  },
+  "Gold Coast Airport to/from Adelaide International Airport": {
+    "source": "Gold Coast Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 2
+  },
+  "Gold Coast Airport to/from Cairns International Airport": {
+    "source": "Gold Coast Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Gold Coast Airport to/from Melbourne International Airport": {
+    "source": "Gold Coast Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 3
+  },
+  "Gold Coast Airport to/from Newcastle Airport": {
+    "source": "Gold Coast Airport",
+    "destination": "Newcastle Airport",
+    "flights": 1
+  },
+  "Gold Coast Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Gold Coast Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 4
+  },
+  "Perth International Airport to/from Adelaide International Airport": {
+    "source": "Perth International Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 3
+  },
+  "Perth International Airport to/from Cairns International Airport": {
+    "source": "Perth International Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Proserpine Whitsunday Coast Airport to/from Brisbane International Airport": {
+    "source": "Proserpine Whitsunday Coast Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Sydney Kingsford Smith International Airport to/from Avalon Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Avalon Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Ayers Rock Connellan Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Ayers Rock Connellan Airport",
+    "flights": 2
+  },
+  "Sydney Kingsford Smith International Airport to/from Ballina Byron Gateway Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Ballina Byron Gateway Airport",
+    "flights": 3
+  },
+  "Sydney Kingsford Smith International Airport to/from Hobart International Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Hobart International Airport",
+    "flights": 3
+  },
+  "Sydney Kingsford Smith International Airport to/from Hamilton Island Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Hamilton Island Airport",
+    "flights": 2
+  },
+  "Sydney Kingsford Smith International Airport to/from Launceston Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Launceston Airport",
+    "flights": 2
+  },
+  "Sydney Kingsford Smith International Airport to/from Sunshine Coast Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Sunshine Coast Airport",
+    "flights": 2
+  },
+  "Sydney Kingsford Smith International Airport to/from Gold Coast Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Gold Coast Airport",
+    "flights": 4
+  },
+  "Sydney Kingsford Smith International Airport to/from Townsville Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Townsville Airport",
+    "flights": 2
+  },
+  "Townsville Airport to/from Melbourne International Airport": {
+    "source": "Townsville Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Townsville Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Townsville Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 2
+  },
+  "Broome International Airport to/from Darwin International Airport": {
+    "source": "Broome International Airport",
+    "destination": "Darwin International Airport",
+    "flights": 2
+  },
+  "Broome International Airport to/from Kununurra Airport": {
+    "source": "Broome International Airport",
+    "destination": "Kununurra Airport",
+    "flights": 2
+  },
+  "Broome International Airport to/from Karratha Airport": {
+    "source": "Broome International Airport",
+    "destination": "Karratha Airport",
+    "flights": 2
+  },
+  "Darwin International Airport to/from Broome International Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Broome International Airport",
+    "flights": 2
+  },
+  "Darwin International Airport to/from Mount Isa Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Mount Isa Airport",
+    "flights": 2
+  },
+  "Darwin International Airport to/from Kununurra Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Kununurra Airport",
+    "flights": 2
+  },
+  "Darwin International Airport to/from McArthur River Mine Airport": {
+    "source": "Darwin International Airport",
+    "destination": "McArthur River Mine Airport",
+    "flights": 1
+  },
+  "Darwin International Airport to/from Maningrida Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Maningrida Airport",
+    "flights": 1
+  },
+  "Darwin International Airport to/from Townsville Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Townsville Airport",
+    "flights": 2
+  },
+  "Elcho Island Airport to/from Maningrida Airport": {
+    "source": "Elcho Island Airport",
+    "destination": "Maningrida Airport",
+    "flights": 1
+  },
+  "Gove Airport to/from Darwin International Airport": {
+    "source": "Gove Airport",
+    "destination": "Darwin International Airport",
+    "flights": 2
+  },
+  "Gove Airport to/from Groote Eylandt Airport": {
+    "source": "Gove Airport",
+    "destination": "Groote Eylandt Airport",
+    "flights": 1
+  },
+  "Groote Eylandt Airport to/from Gove Airport": {
+    "source": "Groote Eylandt Airport",
+    "destination": "Gove Airport",
+    "flights": 1
+  },
+  "Mount Isa Airport to/from Darwin International Airport": {
+    "source": "Mount Isa Airport",
+    "destination": "Darwin International Airport",
+    "flights": 2
+  },
+  "Mount Isa Airport to/from Gold Coast Airport": {
+    "source": "Mount Isa Airport",
+    "destination": "Gold Coast Airport",
+    "flights": 2
+  },
+  "Kununurra Airport to/from Broome International Airport": {
+    "source": "Kununurra Airport",
+    "destination": "Broome International Airport",
+    "flights": 2
+  },
+  "Kununurra Airport to/from Darwin International Airport": {
+    "source": "Kununurra Airport",
+    "destination": "Darwin International Airport",
+    "flights": 2
+  },
+  "Kununurra Airport to/from Perth International Airport": {
+    "source": "Kununurra Airport",
+    "destination": "Perth International Airport",
+    "flights": 4
+  },
+  "Karratha Airport to/from Port Hedland International Airport": {
+    "source": "Karratha Airport",
+    "destination": "Port Hedland International Airport",
+    "flights": 2
+  },
+  "McArthur River Mine Airport to/from Darwin International Airport": {
+    "source": "McArthur River Mine Airport",
+    "destination": "Darwin International Airport",
+    "flights": 1
+  },
+  "Milingimbi Airport to/from Maningrida Airport": {
+    "source": "Milingimbi Airport",
+    "destination": "Maningrida Airport",
+    "flights": 1
+  },
+  "Maningrida Airport to/from Darwin International Airport": {
+    "source": "Maningrida Airport",
+    "destination": "Darwin International Airport",
+    "flights": 1
+  },
+  "Maningrida Airport to/from Elcho Island Airport": {
+    "source": "Maningrida Airport",
+    "destination": "Elcho Island Airport",
+    "flights": 1
+  },
+  "Maningrida Airport to/from Milingimbi Airport": {
+    "source": "Maningrida Airport",
+    "destination": "Milingimbi Airport",
+    "flights": 1
+  },
+  "Gold Coast Airport to/from Mount Isa Airport": {
+    "source": "Gold Coast Airport",
+    "destination": "Mount Isa Airport",
+    "flights": 2
+  },
+  "Perth International Airport to/from Kununurra Airport": {
+    "source": "Perth International Airport",
+    "destination": "Kununurra Airport",
+    "flights": 4
+  },
+  "Port Hedland International Airport to/from Broome International Airport": {
+    "source": "Port Hedland International Airport",
+    "destination": "Broome International Airport",
+    "flights": 3
+  },
+  "Townsville Airport to/from Darwin International Airport": {
+    "source": "Townsville Airport",
+    "destination": "Darwin International Airport",
+    "flights": 2
+  },
+  "Albany Airport to/from Perth International Airport": {
+    "source": "Albany Airport",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Cloncurry Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Cloncurry Airport",
+    "flights": 3
+  },
+  "Busselton Regional Airport to/from Perth International Airport": {
+    "source": "Busselton Regional Airport",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Cloncurry Airport to/from Brisbane International Airport": {
+    "source": "Cloncurry Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 3
+  },
+  "RAAF Base Curtin to/from Perth International Airport": {
+    "source": "RAAF Base Curtin",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Esperance Airport to/from Perth International Airport": {
+    "source": "Esperance Airport",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Geraldton Airport to/from Perth International Airport": {
+    "source": "Geraldton Airport",
+    "destination": "Perth International Airport",
+    "flights": 3
+  },
+  "Kalgoorlie Boulder Airport to/from Perth International Airport": {
+    "source": "Kalgoorlie Boulder Airport",
+    "destination": "Perth International Airport",
+    "flights": 3
+  },
+  "Learmonth Airport to/from Perth International Airport": {
+    "source": "Learmonth Airport",
+    "destination": "Perth International Airport",
+    "flights": 3
+  },
+  "Paraburdoo Airport to/from Perth International Airport": {
+    "source": "Paraburdoo Airport",
+    "destination": "Perth International Airport",
+    "flights": 3
+  },
+  "Perth International Airport to/from Albany Airport": {
+    "source": "Perth International Airport",
+    "destination": "Albany Airport",
+    "flights": 2
+  },
+  "Perth International Airport to/from Busselton Regional Airport": {
+    "source": "Perth International Airport",
+    "destination": "Busselton Regional Airport",
+    "flights": 2
+  },
+  "Perth International Airport to/from RAAF Base Curtin": {
+    "source": "Perth International Airport",
+    "destination": "RAAF Base Curtin",
+    "flights": 2
+  },
+  "Perth International Airport to/from Esperance Airport": {
+    "source": "Perth International Airport",
+    "destination": "Esperance Airport",
+    "flights": 2
+  },
+  "Perth International Airport to/from Geraldton Airport": {
+    "source": "Perth International Airport",
+    "destination": "Geraldton Airport",
+    "flights": 3
+  },
+  "Perth International Airport to/from Kalgoorlie Boulder Airport": {
+    "source": "Perth International Airport",
+    "destination": "Kalgoorlie Boulder Airport",
+    "flights": 3
+  },
+  "Perth International Airport to/from Learmonth Airport": {
+    "source": "Perth International Airport",
+    "destination": "Learmonth Airport",
+    "flights": 3
+  },
+  "Perth International Airport to/from Paraburdoo Airport": {
+    "source": "Perth International Airport",
+    "destination": "Paraburdoo Airport",
+    "flights": 3
+  },
+  "Perth International Airport to/from Ravensthorpe Airport": {
+    "source": "Perth International Airport",
+    "destination": "Ravensthorpe Airport",
+    "flights": 2
+  },
+  "Port Macquarie Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Port Macquarie Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 3
+  },
+  "Ravensthorpe Airport to/from Perth International Airport": {
+    "source": "Ravensthorpe Airport",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Sydney Kingsford Smith International Airport to/from Port Macquarie Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Port Macquarie Airport",
+    "flights": 3
+  },
+  "Albury Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Albury Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 3
+  },
+  "Adelaide International Airport to/from Alice Springs Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Alice Springs Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Canberra International Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Canberra International Airport",
+    "flights": 2
+  },
+  "Adelaide International Airport to/from Kalgoorlie Boulder Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Kalgoorlie Boulder Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Olympic Dam Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Olympic Dam Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Port Lincoln Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Port Lincoln Airport",
+    "flights": 2
+  },
+  "Armidale Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Armidale Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 2
+  },
+  "Alice Springs Airport to/from Adelaide International Airport": {
+    "source": "Alice Springs Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Alice Springs Airport to/from Ayers Rock Connellan Airport": {
+    "source": "Alice Springs Airport",
+    "destination": "Ayers Rock Connellan Airport",
+    "flights": 1
+  },
+  "Alice Springs Airport to/from Brisbane International Airport": {
+    "source": "Alice Springs Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Alice Springs Airport to/from Cairns International Airport": {
+    "source": "Alice Springs Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Alice Springs Airport to/from Darwin International Airport": {
+    "source": "Alice Springs Airport",
+    "destination": "Darwin International Airport",
+    "flights": 1
+  },
+  "Alice Springs Airport to/from Melbourne International Airport": {
+    "source": "Alice Springs Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 2
+  },
+  "Alice Springs Airport to/from Perth International Airport": {
+    "source": "Alice Springs Airport",
+    "destination": "Perth International Airport",
+    "flights": 1
+  },
+  "Ayers Rock Connellan Airport to/from Alice Springs Airport": {
+    "source": "Ayers Rock Connellan Airport",
+    "destination": "Alice Springs Airport",
+    "flights": 1
+  },
+  "Ayers Rock Connellan Airport to/from Cairns International Airport": {
+    "source": "Ayers Rock Connellan Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Barcaldine Airport to/from Longreach Airport": {
+    "source": "Barcaldine Airport",
+    "destination": "Longreach Airport",
+    "flights": 1
+  },
+  "Bundaberg Airport to/from Brisbane International Airport": {
+    "source": "Bundaberg Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Blackall Airport to/from Longreach Airport": {
+    "source": "Blackall Airport",
+    "destination": "Longreach Airport",
+    "flights": 1
+  },
+  "Broome International Airport to/from Brisbane International Airport": {
+    "source": "Broome International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Broome International Airport to/from Melbourne International Airport": {
+    "source": "Broome International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Broome International Airport to/from Perth International Airport": {
+    "source": "Broome International Airport",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Broome International Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Broome International Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Alice Springs Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Alice Springs Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Barcaldine Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Barcaldine Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Bundaberg Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Bundaberg Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Broome International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Broome International Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Charleville Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Charleville Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Emerald Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Emerald Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Gladstone Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Gladstone Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Hervey Bay Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Hervey Bay Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Mount Isa Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Mount Isa Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Karratha Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Karratha Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Lord Howe Island Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Lord Howe Island Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Moranbah Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Moranbah Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Port Hedland International Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Port Hedland International Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Port Macquarie Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Port Macquarie Airport",
+    "flights": 2
+  },
+  "Brisbane International Airport to/from Roma Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Roma Airport",
+    "flights": 2
+  },
+  "Canberra International Airport to/from Adelaide International Airport": {
+    "source": "Canberra International Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 2
+  },
+  "Canberra International Airport to/from Perth International Airport": {
+    "source": "Canberra International Airport",
+    "destination": "Perth International Airport",
+    "flights": 1
+  },
+  "Coffs Harbour Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Coffs Harbour Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 3
+  },
+  "Cloncurry Airport to/from Mount Isa Airport": {
+    "source": "Cloncurry Airport",
+    "destination": "Mount Isa Airport",
+    "flights": 1
+  },
+  "Cloncurry Airport to/from Townsville Airport": {
+    "source": "Cloncurry Airport",
+    "destination": "Townsville Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Alice Springs Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Alice Springs Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Ayers Rock Connellan Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Ayers Rock Connellan Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Horn Island Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Horn Island Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Hamilton Island Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Hamilton Island Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Townsville Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Townsville Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Weipa Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Weipa Airport",
+    "flights": 2
+  },
+  "Charleville Airport to/from Brisbane International Airport": {
+    "source": "Charleville Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Charleville Airport to/from Roma Airport": {
+    "source": "Charleville Airport",
+    "destination": "Roma Airport",
+    "flights": 1
+  },
+  "Dubbo City Regional Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Dubbo City Regional Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 2
+  },
+  "Devonport Airport to/from Melbourne International Airport": {
+    "source": "Devonport Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Darwin International Airport to/from Perth International Airport": {
+    "source": "Darwin International Airport",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Emerald Airport to/from Brisbane International Airport": {
+    "source": "Emerald Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Gladstone Airport to/from Brisbane International Airport": {
+    "source": "Gladstone Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Gladstone Airport to/from Rockhampton Airport": {
+    "source": "Gladstone Airport",
+    "destination": "Rockhampton Airport",
+    "flights": 1
+  },
+  "Gladstone Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Gladstone Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Gove Airport to/from Cairns International Airport": {
+    "source": "Gove Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Horn Island Airport to/from Cairns International Airport": {
+    "source": "Horn Island Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Hamilton Island Airport to/from Cairns International Airport": {
+    "source": "Hamilton Island Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Hervey Bay Airport to/from Brisbane International Airport": {
+    "source": "Hervey Bay Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Mount Isa Airport to/from Brisbane International Airport": {
+    "source": "Mount Isa Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Mount Isa Airport to/from Cloncurry Airport": {
+    "source": "Mount Isa Airport",
+    "destination": "Cloncurry Airport",
+    "flights": 1
+  },
+  "Mount Isa Airport to/from Townsville Airport": {
+    "source": "Mount Isa Airport",
+    "destination": "Townsville Airport",
+    "flights": 2
+  },
+  "Kalgoorlie Boulder Airport to/from Adelaide International Airport": {
+    "source": "Kalgoorlie Boulder Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Karratha Airport to/from Brisbane International Airport": {
+    "source": "Karratha Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Karratha Airport to/from Melbourne International Airport": {
+    "source": "Karratha Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Karratha Airport to/from Perth International Airport": {
+    "source": "Karratha Airport",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Karratha Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Karratha Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Lord Howe Island Airport to/from Brisbane International Airport": {
+    "source": "Lord Howe Island Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Lord Howe Island Airport to/from Port Macquarie Airport": {
+    "source": "Lord Howe Island Airport",
+    "destination": "Port Macquarie Airport",
+    "flights": 1
+  },
+  "Lord Howe Island Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Lord Howe Island Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Longreach Airport to/from Brisbane International Airport": {
+    "source": "Longreach Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Alice Springs Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Alice Springs Airport",
+    "flights": 2
+  },
+  "Melbourne International Airport to/from Broome International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Broome International Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Devonport Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Devonport Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Karratha Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Karratha Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Mildura Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Mildura Airport",
+    "flights": 3
+  },
+  "Melbourne International Airport to/from Port Hedland International Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Port Hedland International Airport",
+    "flights": 1
+  },
+  "Mackay Airport to/from Rockhampton Airport": {
+    "source": "Mackay Airport",
+    "destination": "Rockhampton Airport",
+    "flights": 1
+  },
+  "Mackay Airport to/from Townsville Airport": {
+    "source": "Mackay Airport",
+    "destination": "Townsville Airport",
+    "flights": 1
+  },
+  "Moranbah Airport to/from Brisbane International Airport": {
+    "source": "Moranbah Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Moranbah Airport to/from Townsville Airport": {
+    "source": "Moranbah Airport",
+    "destination": "Townsville Airport",
+    "flights": 1
+  },
+  "Mildura Airport to/from Melbourne International Airport": {
+    "source": "Mildura Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 3
+  },
+  "Moree Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Moree Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Olympic Dam Airport to/from Adelaide International Airport": {
+    "source": "Olympic Dam Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Perth International Airport to/from Broome International Airport": {
+    "source": "Perth International Airport",
+    "destination": "Broome International Airport",
+    "flights": 2
+  },
+  "Perth International Airport to/from Canberra International Airport": {
+    "source": "Perth International Airport",
+    "destination": "Canberra International Airport",
+    "flights": 1
+  },
+  "Perth International Airport to/from Darwin International Airport": {
+    "source": "Perth International Airport",
+    "destination": "Darwin International Airport",
+    "flights": 2
+  },
+  "Perth International Airport to/from Karratha Airport": {
+    "source": "Perth International Airport",
+    "destination": "Karratha Airport",
+    "flights": 2
+  },
+  "Perth International Airport to/from Port Hedland International Airport": {
+    "source": "Perth International Airport",
+    "destination": "Port Hedland International Airport",
+    "flights": 2
+  },
+  "Perth International Airport to/from Newman Airport": {
+    "source": "Perth International Airport",
+    "destination": "Newman Airport",
+    "flights": 2
+  },
+  "Port Hedland International Airport to/from Brisbane International Airport": {
+    "source": "Port Hedland International Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Port Hedland International Airport to/from Melbourne International Airport": {
+    "source": "Port Hedland International Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Port Hedland International Airport to/from Perth International Airport": {
+    "source": "Port Hedland International Airport",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Port Lincoln Airport to/from Adelaide International Airport": {
+    "source": "Port Lincoln Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 2
+  },
+  "Port Macquarie Airport to/from Brisbane International Airport": {
+    "source": "Port Macquarie Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Port Macquarie Airport to/from Lord Howe Island Airport": {
+    "source": "Port Macquarie Airport",
+    "destination": "Lord Howe Island Airport",
+    "flights": 1
+  },
+  "Roma Airport to/from Brisbane International Airport": {
+    "source": "Roma Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 2
+  },
+  "Roma Airport to/from Charleville Airport": {
+    "source": "Roma Airport",
+    "destination": "Charleville Airport",
+    "flights": 1
+  },
+  "Rockhampton Airport to/from Gladstone Airport": {
+    "source": "Rockhampton Airport",
+    "destination": "Gladstone Airport",
+    "flights": 1
+  },
+  "Rockhampton Airport to/from Mackay Airport": {
+    "source": "Rockhampton Airport",
+    "destination": "Mackay Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Albury Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Albury Airport",
+    "flights": 3
+  },
+  "Sydney Kingsford Smith International Airport to/from Armidale Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Armidale Airport",
+    "flights": 2
+  },
+  "Sydney Kingsford Smith International Airport to/from Broome International Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Broome International Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Coffs Harbour Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Coffs Harbour Airport",
+    "flights": 3
+  },
+  "Sydney Kingsford Smith International Airport to/from Dubbo City Regional Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Dubbo City Regional Airport",
+    "flights": 2
+  },
+  "Sydney Kingsford Smith International Airport to/from Gladstone Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Gladstone Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Karratha Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Karratha Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Lord Howe Island Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Lord Howe Island Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Moree Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Moree Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Tamworth Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Tamworth Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Wagga Wagga City Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Wagga Wagga City Airport",
+    "flights": 2
+  },
+  "Tamworth Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Tamworth Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Townsville Airport to/from Cloncurry Airport": {
+    "source": "Townsville Airport",
+    "destination": "Cloncurry Airport",
+    "flights": 1
+  },
+  "Townsville Airport to/from Cairns International Airport": {
+    "source": "Townsville Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Townsville Airport to/from Mount Isa Airport": {
+    "source": "Townsville Airport",
+    "destination": "Mount Isa Airport",
+    "flights": 2
+  },
+  "Townsville Airport to/from Mackay Airport": {
+    "source": "Townsville Airport",
+    "destination": "Mackay Airport",
+    "flights": 1
+  },
+  "Townsville Airport to/from Moranbah Airport": {
+    "source": "Townsville Airport",
+    "destination": "Moranbah Airport",
+    "flights": 1
+  },
+  "Weipa Airport to/from Cairns International Airport": {
+    "source": "Weipa Airport",
+    "destination": "Cairns International Airport",
+    "flights": 2
+  },
+  "Wagga Wagga City Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Wagga Wagga City Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 2
+  },
+  "Newman Airport to/from Perth International Airport": {
+    "source": "Newman Airport",
+    "destination": "Perth International Airport",
+    "flights": 2
+  },
+  "Albury Airport to/from Melbourne International Airport": {
+    "source": "Albury Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Broken Hill Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Broken Hill Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Ceduna Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Ceduna Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Coober Pedy Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Coober Pedy Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Kingscote Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Kingscote Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Mount Gambier Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Mount Gambier Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Mildura Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Mildura Airport",
+    "flights": 1
+  },
+  "Adelaide International Airport to/from Whyalla Airport": {
+    "source": "Adelaide International Airport",
+    "destination": "Whyalla Airport",
+    "flights": 1
+  },
+  "Broken Hill Airport to/from Adelaide International Airport": {
+    "source": "Broken Hill Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Broken Hill Airport to/from Dubbo City Regional Airport": {
+    "source": "Broken Hill Airport",
+    "destination": "Dubbo City Regional Airport",
+    "flights": 1
+  },
+  "Broken Hill Airport to/from Mildura Airport": {
+    "source": "Broken Hill Airport",
+    "destination": "Mildura Airport",
+    "flights": 1
+  },
+  "Broken Hill Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Broken Hill Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Bathurst Airport to/from Parkes Airport": {
+    "source": "Bathurst Airport",
+    "destination": "Parkes Airport",
+    "flights": 1
+  },
+  "Bathurst Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Bathurst Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Ballina Byron Gateway Airport to/from Newcastle Airport": {
+    "source": "Ballina Byron Gateway Airport",
+    "destination": "Newcastle Airport",
+    "flights": 1
+  },
+  "Wynyard Airport to/from Melbourne International Airport": {
+    "source": "Wynyard Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Ceduna Airport to/from Adelaide International Airport": {
+    "source": "Ceduna Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Coober Pedy Airport to/from Adelaide International Airport": {
+    "source": "Coober Pedy Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Dubbo City Regional Airport to/from Broken Hill Airport": {
+    "source": "Dubbo City Regional Airport",
+    "destination": "Broken Hill Airport",
+    "flights": 1
+  },
+  "Griffith Airport to/from Narrandera Airport": {
+    "source": "Griffith Airport",
+    "destination": "Narrandera Airport",
+    "flights": 1
+  },
+  "Griffith Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Griffith Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Grafton Airport to/from Taree Airport": {
+    "source": "Grafton Airport",
+    "destination": "Taree Airport",
+    "flights": 1
+  },
+  "Mount Isa Airport to/from Julia Creek Airport": {
+    "source": "Mount Isa Airport",
+    "destination": "Julia Creek Airport",
+    "flights": 1
+  },
+  "Julia Creek Airport to/from Mount Isa Airport": {
+    "source": "Julia Creek Airport",
+    "destination": "Mount Isa Airport",
+    "flights": 1
+  },
+  "Julia Creek Airport to/from Richmond Airport": {
+    "source": "Julia Creek Airport",
+    "destination": "Richmond Airport",
+    "flights": 1
+  },
+  "Kingscote Airport to/from Adelaide International Airport": {
+    "source": "Kingscote Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "King Island Airport to/from Melbourne International Airport": {
+    "source": "King Island Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Longreach Airport to/from Winton Airport": {
+    "source": "Longreach Airport",
+    "destination": "Winton Airport",
+    "flights": 1
+  },
+  "Lismore Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Lismore Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Albury Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Albury Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Wynyard Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Wynyard Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from King Island Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "King Island Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Mount Gambier Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Mount Gambier Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Merimbula Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Merimbula Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Wagga Wagga City Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Wagga Wagga City Airport",
+    "flights": 1
+  },
+  "Mount Gambier Airport to/from Adelaide International Airport": {
+    "source": "Mount Gambier Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Mount Gambier Airport to/from Melbourne International Airport": {
+    "source": "Mount Gambier Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Merimbula Airport to/from Melbourne International Airport": {
+    "source": "Merimbula Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Merimbula Airport to/from Moruya Airport": {
+    "source": "Merimbula Airport",
+    "destination": "Moruya Airport",
+    "flights": 1
+  },
+  "Merimbula Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Merimbula Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Mildura Airport to/from Adelaide International Airport": {
+    "source": "Mildura Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Mildura Airport to/from Broken Hill Airport": {
+    "source": "Mildura Airport",
+    "destination": "Broken Hill Airport",
+    "flights": 1
+  },
+  "Mildura Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Mildura Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Moruya Airport to/from Merimbula Airport": {
+    "source": "Moruya Airport",
+    "destination": "Merimbula Airport",
+    "flights": 1
+  },
+  "Moruya Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Moruya Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Narrandera Airport to/from Griffith Airport": {
+    "source": "Narrandera Airport",
+    "destination": "Griffith Airport",
+    "flights": 1
+  },
+  "Narrandera Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Narrandera Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Newcastle Airport to/from Ballina Byron Gateway Airport": {
+    "source": "Newcastle Airport",
+    "destination": "Ballina Byron Gateway Airport",
+    "flights": 1
+  },
+  "Newcastle Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Newcastle Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Orange Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Orange Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Parkes Airport to/from Bathurst Airport": {
+    "source": "Parkes Airport",
+    "destination": "Bathurst Airport",
+    "flights": 1
+  },
+  "Parkes Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Parkes Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Richmond Airport to/from Julia Creek Airport": {
+    "source": "Richmond Airport",
+    "destination": "Julia Creek Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Broken Hill Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Broken Hill Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Bathurst Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Bathurst Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Griffith Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Griffith Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Lismore Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Lismore Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Merimbula Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Merimbula Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Mildura Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Mildura Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Moruya Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Moruya Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Narrandera Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Narrandera Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Newcastle Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Newcastle Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Orange Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Orange Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Parkes Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Parkes Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Taree Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Taree Airport",
+    "flights": 1
+  },
+  "Taree Airport to/from Grafton Airport": {
+    "source": "Taree Airport",
+    "destination": "Grafton Airport",
+    "flights": 1
+  },
+  "Taree Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Taree Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Townsville Airport to/from Winton Airport": {
+    "source": "Townsville Airport",
+    "destination": "Winton Airport",
+    "flights": 1
+  },
+  "Wagga Wagga City Airport to/from Melbourne International Airport": {
+    "source": "Wagga Wagga City Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Winton Airport to/from Longreach Airport": {
+    "source": "Winton Airport",
+    "destination": "Longreach Airport",
+    "flights": 1
+  },
+  "Winton Airport to/from Townsville Airport": {
+    "source": "Winton Airport",
+    "destination": "Townsville Airport",
+    "flights": 1
+  },
+  "Whyalla Airport to/from Adelaide International Airport": {
+    "source": "Whyalla Airport",
+    "destination": "Adelaide International Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Mackay Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Mackay Airport",
+    "flights": 1
+  },
+  "Mackay Airport to/from Melbourne International Airport": {
+    "source": "Mackay Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Proserpine Whitsunday Coast Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Proserpine Whitsunday Coast Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Proserpine Whitsunday Coast Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Proserpine Whitsunday Coast Airport",
+    "flights": 1
+  },
+  "Albany Airport to/from Busselton Regional Airport": {
+    "source": "Albany Airport",
+    "destination": "Busselton Regional Airport",
+    "flights": 1
+  },
+  "Broome International Airport to/from Port Hedland International Airport": {
+    "source": "Broome International Airport",
+    "destination": "Port Hedland International Airport",
+    "flights": 1
+  },
+  "Busselton Regional Airport to/from Albany Airport": {
+    "source": "Busselton Regional Airport",
+    "destination": "Albany Airport",
+    "flights": 1
+  },
+  "Canberra International Airport to/from Gold Coast Airport": {
+    "source": "Canberra International Airport",
+    "destination": "Gold Coast Airport",
+    "flights": 1
+  },
+  "Coffs Harbour Airport to/from Melbourne International Airport": {
+    "source": "Coffs Harbour Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Esperance Airport to/from Ravensthorpe Airport": {
+    "source": "Esperance Airport",
+    "destination": "Ravensthorpe Airport",
+    "flights": 1
+  },
+  "Hervey Bay Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Hervey Bay Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Kalgoorlie Boulder Airport to/from Melbourne International Airport": {
+    "source": "Kalgoorlie Boulder Airport",
+    "destination": "Melbourne International Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Coffs Harbour Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Coffs Harbour Airport",
+    "flights": 1
+  },
+  "Melbourne International Airport to/from Kalgoorlie Boulder Airport": {
+    "source": "Melbourne International Airport",
+    "destination": "Kalgoorlie Boulder Airport",
+    "flights": 1
+  },
+  "Mackay Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Mackay Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Gold Coast Airport to/from Canberra International Airport": {
+    "source": "Gold Coast Airport",
+    "destination": "Canberra International Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Hervey Bay Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Hervey Bay Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Mackay Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Mackay Airport",
+    "flights": 1
+  },
+  "Northern Peninsula Airport to/from Cairns International Airport": {
+    "source": "Northern Peninsula Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Aurukun Airport to/from Cairns International Airport": {
+    "source": "Aurukun Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Aurukun Airport to/from Coen Airport": {
+    "source": "Aurukun Airport",
+    "destination": "Coen Airport",
+    "flights": 1
+  },
+  "Bedourie Airport to/from Boulia Airport": {
+    "source": "Bedourie Airport",
+    "destination": "Boulia Airport",
+    "flights": 1
+  },
+  "Bedourie Airport to/from Birdsville Airport": {
+    "source": "Bedourie Airport",
+    "destination": "Birdsville Airport",
+    "flights": 1
+  },
+  "Brisbane International Airport to/from Toowoomba Airport": {
+    "source": "Brisbane International Airport",
+    "destination": "Toowoomba Airport",
+    "flights": 1
+  },
+  "Boulia Airport to/from Bedourie Airport": {
+    "source": "Boulia Airport",
+    "destination": "Bedourie Airport",
+    "flights": 1
+  },
+  "Boulia Airport to/from Mount Isa Airport": {
+    "source": "Boulia Airport",
+    "destination": "Mount Isa Airport",
+    "flights": 1
+  },
+  "Burketown Airport to/from Doomadgee Airport": {
+    "source": "Burketown Airport",
+    "destination": "Doomadgee Airport",
+    "flights": 1
+  },
+  "Burketown Airport to/from Mornington Island Airport": {
+    "source": "Burketown Airport",
+    "destination": "Mornington Island Airport",
+    "flights": 1
+  },
+  "Birdsville Airport to/from Bedourie Airport": {
+    "source": "Birdsville Airport",
+    "destination": "Bedourie Airport",
+    "flights": 1
+  },
+  "Birdsville Airport to/from Windorah Airport": {
+    "source": "Birdsville Airport",
+    "destination": "Windorah Airport",
+    "flights": 1
+  },
+  "Cunnamulla Airport to/from St George Airport": {
+    "source": "Cunnamulla Airport",
+    "destination": "St George Airport",
+    "flights": 1
+  },
+  "Cunnamulla Airport to/from Thargomindah Airport": {
+    "source": "Cunnamulla Airport",
+    "destination": "Thargomindah Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Northern Peninsula Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Northern Peninsula Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Aurukun Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Aurukun Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Coen Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Coen Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Pormpuraaw Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Pormpuraaw Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Lockhart River Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Lockhart River Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Mount Isa Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Mount Isa Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Kowanyama Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Kowanyama Airport",
+    "flights": 1
+  },
+  "Cairns International Airport to/from Normanton Airport": {
+    "source": "Cairns International Airport",
+    "destination": "Normanton Airport",
+    "flights": 1
+  },
+  "Charleville Airport to/from Toowoomba Airport": {
+    "source": "Charleville Airport",
+    "destination": "Toowoomba Airport",
+    "flights": 1
+  },
+  "Charleville Airport to/from Quilpie Airport": {
+    "source": "Charleville Airport",
+    "destination": "Quilpie Airport",
+    "flights": 1
+  },
+  "Coen Airport to/from Lockhart River Airport": {
+    "source": "Coen Airport",
+    "destination": "Lockhart River Airport",
+    "flights": 1
+  },
+  "Doomadgee Airport to/from Burketown Airport": {
+    "source": "Doomadgee Airport",
+    "destination": "Burketown Airport",
+    "flights": 1
+  },
+  "Doomadgee Airport to/from Mount Isa Airport": {
+    "source": "Doomadgee Airport",
+    "destination": "Mount Isa Airport",
+    "flights": 1
+  },
+  "Doomadgee Airport to/from Mornington Island Airport": {
+    "source": "Doomadgee Airport",
+    "destination": "Mornington Island Airport",
+    "flights": 1
+  },
+  "Pormpuraaw Airport to/from Cairns International Airport": {
+    "source": "Pormpuraaw Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Pormpuraaw Airport to/from Kowanyama Airport": {
+    "source": "Pormpuraaw Airport",
+    "destination": "Kowanyama Airport",
+    "flights": 1
+  },
+  "Lockhart River Airport to/from Aurukun Airport": {
+    "source": "Lockhart River Airport",
+    "destination": "Aurukun Airport",
+    "flights": 1
+  },
+  "Lockhart River Airport to/from Cairns International Airport": {
+    "source": "Lockhart River Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Mount Isa Airport to/from Boulia Airport": {
+    "source": "Mount Isa Airport",
+    "destination": "Boulia Airport",
+    "flights": 1
+  },
+  "Mount Isa Airport to/from Cairns International Airport": {
+    "source": "Mount Isa Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Mount Isa Airport to/from Doomadgee Airport": {
+    "source": "Mount Isa Airport",
+    "destination": "Doomadgee Airport",
+    "flights": 1
+  },
+  "Kowanyama Airport to/from Cairns International Airport": {
+    "source": "Kowanyama Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Kowanyama Airport to/from Pormpuraaw Airport": {
+    "source": "Kowanyama Airport",
+    "destination": "Pormpuraaw Airport",
+    "flights": 1
+  },
+  "Normanton Airport to/from Cairns International Airport": {
+    "source": "Normanton Airport",
+    "destination": "Cairns International Airport",
+    "flights": 1
+  },
+  "Normanton Airport to/from Mornington Island Airport": {
+    "source": "Normanton Airport",
+    "destination": "Mornington Island Airport",
+    "flights": 1
+  },
+  "Mornington Island Airport to/from Burketown Airport": {
+    "source": "Mornington Island Airport",
+    "destination": "Burketown Airport",
+    "flights": 1
+  },
+  "Mornington Island Airport to/from Doomadgee Airport": {
+    "source": "Mornington Island Airport",
+    "destination": "Doomadgee Airport",
+    "flights": 1
+  },
+  "Mornington Island Airport to/from Normanton Airport": {
+    "source": "Mornington Island Airport",
+    "destination": "Normanton Airport",
+    "flights": 1
+  },
+  "St George Airport to/from Cunnamulla Airport": {
+    "source": "St George Airport",
+    "destination": "Cunnamulla Airport",
+    "flights": 1
+  },
+  "St George Airport to/from Toowoomba Airport": {
+    "source": "St George Airport",
+    "destination": "Toowoomba Airport",
+    "flights": 1
+  },
+  "Sydney Kingsford Smith International Airport to/from Toowoomba Airport": {
+    "source": "Sydney Kingsford Smith International Airport",
+    "destination": "Toowoomba Airport",
+    "flights": 1
+  },
+  "Toowoomba Airport to/from Brisbane International Airport": {
+    "source": "Toowoomba Airport",
+    "destination": "Brisbane International Airport",
+    "flights": 1
+  },
+  "Toowoomba Airport to/from Charleville Airport": {
+    "source": "Toowoomba Airport",
+    "destination": "Charleville Airport",
+    "flights": 1
+  },
+  "Toowoomba Airport to/from St George Airport": {
+    "source": "Toowoomba Airport",
+    "destination": "St George Airport",
+    "flights": 1
+  },
+  "Toowoomba Airport to/from Sydney Kingsford Smith International Airport": {
+    "source": "Toowoomba Airport",
+    "destination": "Sydney Kingsford Smith International Airport",
+    "flights": 1
+  },
+  "Quilpie Airport to/from Charleville Airport": {
+    "source": "Quilpie Airport",
+    "destination": "Charleville Airport",
+    "flights": 1
+  },
+  "Quilpie Airport to/from Windorah Airport": {
+    "source": "Quilpie Airport",
+    "destination": "Windorah Airport",
+    "flights": 1
+  },
+  "Windorah Airport to/from Birdsville Airport": {
+    "source": "Windorah Airport",
+    "destination": "Birdsville Airport",
+    "flights": 1
+  },
+  "Windorah Airport to/from Quilpie Airport": {
+    "source": "Windorah Airport",
+    "destination": "Quilpie Airport",
+    "flights": 1
+  },
+  "Thargomindah Airport to/from Cunnamulla Airport": {
+    "source": "Thargomindah Airport",
+    "destination": "Cunnamulla Airport",
+    "flights": 1
+  }
+}

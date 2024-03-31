@@ -41,27 +41,10 @@ function mergeDataSets(flights, airports) {
             }
         };
     });
-}
+};
 
-const mergedData = mergeDataSets(flights, airports);
-console.log(mergedData);
-
-
-/* had to change this b/c only returning flight details for the source airport
-function mergeDataSets(flights, airports) {
-    return flights.map(flight => {
-        const idIsSame = airports.find(airport => airport.id === flight.source_airport_id);
-        if (idIsSame) {
-            return {
-                ... flight,
-                ... idIsSame
-            }
-        }
-    });
-}
 const mergedData = mergeDataSets(flights, airports);
 //console.log(mergedData);
-*/
 
 
 // write new .json file of merged data
@@ -88,7 +71,22 @@ return mergedData.map(data => {
 });
 };
 const mergedFlightsDataMap = mapFlightData(mergedData);
-console.log(mergedFlightsDataMap);
+//console.log(mergedFlightsDataMap);
+
+const flightsJsonDataString = JSON.stringify(mergedFlightsDataMap, null, 2);
+fs.writeFile("flightsDataMap.json", flightsJsonDataString, error => {
+    if(error) {
+        console.log("Error writing file.", error);
+    } else {
+        console.log("File written successfully.");
+    }
+});
+
+
+module.exports = {
+    mergedData,
+    mergedFlightsDataMap
+};
 
 
 // function for counting amount of flights on a particular route
@@ -110,10 +108,6 @@ function getTotalOfRoute(sourceID, destinationID) {
 
 
 
-module.exports = {
-    mergedData,
-    mergedFlightsDataMap
-};
 
 
 
@@ -209,4 +203,22 @@ function mergeDataSets(flights, airports) {
 
 const mergedData = mergeDataSets(flights, airports);
 console.log(mergedData);
+*/
+
+
+/* 
+had to change this b/c only returning flight details for the source airport
+function mergeDataSets(flights, airports) {
+    return flights.map(flight => {
+        const idIsSame = airports.find(airport => airport.id === flight.source_airport_id);
+        if (idIsSame) {
+            return {
+                ... flight,
+                ... idIsSame
+            }
+        }
+    });
+}
+const mergedData = mergeDataSets(flights, airports);
+//console.log(mergedData);
 */

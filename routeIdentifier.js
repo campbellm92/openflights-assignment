@@ -1,7 +1,69 @@
-const {mergedData, mergedFlightsDataMap} = require("./main.js");
+// 28.03: having an issue whereby running anything from this file in the console deletes the json data
+// change to load flightsDataMap:
+const fs = require("fs");
+const mappedData = fs.readFileSync("./flightsDataMap.json", "utf8");
+const mappedFlightsData = JSON.parse(mappedData);
+
+// function for displaying routes:
+function createRouteIdentifier(flight) {
+    let sourcePortName = flight.source_airport.name;
+    let destinationPortName = flight.destination_airport.name;
+
+    if (sourcePortName < destinationPortName) {
+        return `${sourcePortName} to/from ${destinationPortName}`;
+    }else {
+        return `${sourcePortName} to/from ${destinationPortName}`;
+        ;
+    };
+};
+
+//console.log(createRouteIdentifier(mergedFlightsDataMap));
+
+// function for counting routes: 
+function countRoutes(flights) { 
+    let flightCounts = {};
+    flights.forEach(flight => {
+        const route = createRouteIdentifier(flight);
+        if (!flightCounts[route]) { 
+            flightCounts[route] = {
+                source: flight.source_airport.name,
+                destination: flight.destination_airport.name,
+                flights: 0
+            }; 
+        }
+        flightCounts[route].flights++; // increment outside of the else statement
+    });
+    return flightCounts;
+}
+const flightCountsObj = countRoutes(mappedFlightsData);
+console.log(flightCountsObj); 
+
+
+
+const routesJsonDataString = JSON.stringify(flightCountsObj, null, 2);
+fs.writeFile("routesData.json", routesJsonDataString, error => {
+    if(error) {
+        console.log("Error writing file.", error);
+    } else {
+        console.log("File written successfully.");
+    }
+});
+
+
+
+module.exports = {
+    createRouteIdentifier,
+    countRoutes,
+    flightCountsObj
+};
+
+
+
+
+
 
 /*
-function createRouteIdentifier(flight) {
+function createRouteIdentifier(mappedFlightsData) {
     let sourceIATA = flight.source_airport.iata;
     let destinationIATA = flight.destination_airport.iata;
 
@@ -11,50 +73,11 @@ function createRouteIdentifier(flight) {
         return destinationIATA + " - " + sourceIATA;
     }
 }
+//console.log(createRouteIdentifier(flight);
 */
-// not working:
-function createRouteIdentifier(flight) {
-    let sourceIATA = flight.source_airport.iata;
-    let destinationIATA = flight.destination_airport.iata;
-
-    if (sourceIATA < destinationIATA) {
-        return {
-            "Flight route": `${flight.source_airport.city} to ${flight.destination_airport.city}`,
-            "Source Airport ID": `${flight.source_airport.id}`,
-            "Destination Airport ID": `${flight.destination_airport.id}`,
-            "Route IATA Codes": sourceIATA + " - " + destinationIATA
-        };
-        
-    }else {
-        return {
-        "Flight route": `${flight.source_airport.city} to ${flight.destination_airport.city}`,
-        "Source Airport ID": `${flight.source_airport.id}`,
-        "Destination Airport ID": `${flight.destination_airport.id}`,
-        "Route IATA Codes": destinationIATA + " - " + sourceIATA
-        };
-    }
-}
-
-function countFlightsByIATA(mergedFlightsDataMap) { // need to rename as iata
-    let flightCounts = {};
-    mergedFlightsDataMap.forEach(flight => {
-        const route = createRouteIdentifier(flight);
-        if (!flightCounts[route]) { // add if clause to handle potential of pair not existing
-            flightCounts[route] = 0;
-        }
-        flightCounts[route]++; // increment outside of the if statement
-    });
-    return flightCounts;
-}
-const flightCountsObj = countFlightsByIATA(mergedFlightsDataMap);
-console.log(flightCountsObj); 
 
 
-module.exports = {
-    createRouteIdentifier,
-    countFlightsByIATA,
-    flightCountsObj
-};
+
 
 
 /*   returning NaN... 

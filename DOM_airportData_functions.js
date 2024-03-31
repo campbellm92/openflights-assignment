@@ -7,8 +7,8 @@ async function loadAirportsData() {
     };
     const data = await response.json();
     console.log(data);
-    populateDropdownAirportCity(data)
     airportsDataGlobal = data;
+    populateDropdownAirportCity(data)
     return data;
     }catch (error){
         console.log("Error loading data", error);
@@ -38,6 +38,7 @@ function selectAirportCity(){
     const selectedCity = selectCity.value;
     const airportCityDisplay = document.getElementById("airportFilterDisplayDiv");
     airportCityDisplay.innerHTML = " ";
+
     const infoFromSelectedCity = airportsDataGlobal.filter(airport => airport.city === selectedCity);
     if (infoFromSelectedCity.length > 0) {
         infoFromSelectedCity.forEach(field => {
@@ -46,5 +47,7 @@ function selectAirportCity(){
             Latitude: ${field.latitude}; Longitude: ${field.longitude}; Timezone: ${field.timezone}`;
             airportCityDisplay.appendChild(info);
         });
+    } else{
+        airportCityDisplay.textContent = "No flights found for the selected city."
     }
-    } ;
+    };

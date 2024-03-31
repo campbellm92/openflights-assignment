@@ -26,6 +26,9 @@ window.onload = function(){ // source: codeplay21
     document.getElementById("filterAirlineSelect").addEventListener("change", selectAirline);
     document.getElementById("filterAircraftSelect").addEventListener("change", selectAircraft);
     document.getElementById("filterCitySelect").addEventListener("change", selectAirportCity);
+    document.getElementById("busiestRouteBtn").addEventListener("click", showBusiestRoute);
+    document.getElementById("topTenBtn").addEventListener("click", showTopTenFlights);
+    document.getElementById("averageFlightsBtn").addEventListener("click", showRoutesAverage);
     };
 
 // functions for source airport dropdown & displaying selected info
@@ -52,9 +55,11 @@ function selectSourceAirport() {
     const selectedAirport = selectSource.value;
     const airportInfoDisplay = document.getElementById("flightFilterDisplayDiv");
     airportInfoDisplay.innerHTML = " " // sources below 
+    // set dropdowns to their defaults
     document.getElementById("filterDestinationAirportSelect").selectedIndex = 0;
     document.getElementById("filterAirlineSelect").selectedIndex = 0; 
     document.getElementById("filterAircraftSelect").selectedIndex = 0;
+
     const infoFromSelectedAirport = mergedDataGlobal.filter(flight => flight.source_airport.name === selectedAirport);
         if (infoFromSelectedAirport.length > 0) {
             infoFromSelectedAirport.forEach(flight => {
@@ -62,6 +67,8 @@ function selectSourceAirport() {
             info.textContent = `Destination: ${flight.destination_airport.name}; Airline: ${flight.airline.name}; Aircraft: ${flight.aircraft}`;
             airportInfoDisplay.appendChild(info);
         })
+    }else {
+        airportInfoDisplay.textContent = "No flights found for the selected source airport."
     };
         };
 
@@ -74,6 +81,7 @@ function selectSourceAirport() {
  function populateDestinationDropdown(data) {
     const destinationAirportSelect = document.getElementById("filterDestinationAirportSelect");
     let airportSingleInstanceArr = []; 
+
     data.forEach(flight => {
         const airportName = flight.source_airport.name;
         if (!airportSingleInstanceArr.includes(airportName)) {
@@ -91,9 +99,11 @@ function selectDestinationAirport() {
     const selectedAirport = selectDestination.value;
     const airportInfoDisplay = document.getElementById("flightFilterDisplayDiv");
     airportInfoDisplay.innerHTML = " " 
+
     document.getElementById("filterSourceAirportSelect").selectedIndex = 0;
     document.getElementById("filterAirlineSelect").selectedIndex = 0; 
     document.getElementById("filterAircraftSelect").selectedIndex = 0;
+
     const infoFromSelectedAirport = mergedDataGlobal.filter(flight => flight.destination_airport.name === selectedAirport);
         if (infoFromSelectedAirport.length > 0) {
             infoFromSelectedAirport.forEach(flight => {
@@ -101,6 +111,8 @@ function selectDestinationAirport() {
             info.textContent = `Source: ${flight.source_airport.name}; Airline: ${flight.airline.name}; Aircraft: ${flight.aircraft}`;
             airportInfoDisplay.appendChild(info);
         })
+    }else {
+        airportInfoDisplay.textContent = "No flights found for the selected destination airport."
     };
         };
 //source for selectedIndex (making it so that the other dropdowns go back to default when interacting with diff dropdown):
@@ -110,6 +122,7 @@ function selectDestinationAirport() {
 function populateAirlineDropdown(data) {
     const airlineSelect = document.getElementById("filterAirlineSelect");
     let airlineSingleInstanceArr = []; 
+
     data.forEach(flight => {
         const airlineName = flight.airline.name;
         if (!airlineSingleInstanceArr.includes(airlineName)) {
@@ -127,9 +140,11 @@ function selectAirline() {
     const selectedAirline = selectAirline.value;
     const airlineInfoDisplay = document.getElementById("flightFilterDisplayDiv");
     airlineInfoDisplay.innerHTML = " " 
+
     document.getElementById("filterSourceAirportSelect").selectedIndex = 0;
     document.getElementById("filterDestinationAirportSelect").selectedIndex = 0;
     document.getElementById("filterAircraftSelect").selectedIndex = 0;
+
     const infoFromSelectedAirline = mergedDataGlobal.filter(flight => flight.airline.name === selectedAirline);
         if (infoFromSelectedAirline.length > 0) {
             infoFromSelectedAirline.forEach(flight => {
@@ -137,6 +152,8 @@ function selectAirline() {
             info.textContent = `Source: ${flight.source_airport.name}; Destination: ${flight.destination_airport.name}; Aircraft: ${flight.aircraft}`;
             airlineInfoDisplay.appendChild(info);
         })
+    }else {
+        airportInfoDisplay.textContent = "No flights found for the selected airline."
     };
         };
 
@@ -145,6 +162,7 @@ function selectAirline() {
 function populateAircraftDropdown(data) {
     const aircraftSelect = document.getElementById("filterAircraftSelect");
     let aircraftSingleInstanceArr = []; 
+
     data.forEach(flight => {
         flight.aircraft.forEach(aircraftName => {  // need to iterate through b/c array
             if (!aircraftSingleInstanceArr.includes(aircraftName)) {
@@ -163,9 +181,11 @@ function selectAircraft() {
     const selectedAircraft = selectAircraft.value;
     const aircraftInfoDisplay = document.getElementById("flightFilterDisplayDiv");
     aircraftInfoDisplay.innerHTML = " " 
+
     document.getElementById("filterSourceAirportSelect").selectedIndex = 0;
     document.getElementById("filterDestinationAirportSelect").selectedIndex = 0;
     document.getElementById("filterAirlineSelect").selectedIndex = 0;
+
     const infoFromSelectedAircraft = mergedDataGlobal.filter(flight => flight.aircraft.includes(selectedAircraft)); // wasn't working b/c this field is an array 
         if (infoFromSelectedAircraft.length > 0) {
             infoFromSelectedAircraft.forEach(flight => {
@@ -173,6 +193,8 @@ function selectAircraft() {
             info.textContent = `Source: ${flight.source_airport.name}; Destination: ${flight.destination_airport.name}; Airline: ${flight.airline.name}`;
             aircraftInfoDisplay.appendChild(info);
         })
+    }else {
+        airportInfoDisplay.textContent = "No flights found for the selected aircraft."
     };
         }
 
@@ -186,6 +208,8 @@ function selectAircraft() {
     
 }
 
+
+// another source: https://www.youtube.com/watch?v=VmQ6dHvnKIM (DAVE GRAY)
 
 /*
 document.getElementById("filterSourceAirportSelect").addEventListener("click" selectSourceAirport);

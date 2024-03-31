@@ -1,6 +1,9 @@
 // sort:
 // https://www.w3schools.com/js/js_array_sort.asp
 
+//31.03: nothing working here. removes values in flightsDataMap.json when logged in console
+
+
 const {mergedData, mergedFlightsDataMap} = require("./main.js");
 const {createRouteIdentifier, countFlightsByID, flightCountsObj} = require("./routeIdentifier.js");
 
@@ -17,8 +20,6 @@ function findBusiestRoute(flightCountsArr) {
 }
 const busiestRoute = findBusiestRoute(flightCountsArr);
 console.log(busiestRoute);
-
-
 
 //console.log(maxValue);
 // https://www.shecodes.io/athena?tag=Math.max%28%29+method#:~:text=In%20order%20to%20use%20the,to%20find%20into%20an%20array.
@@ -42,8 +43,6 @@ function getTopTen(flightCountsArr) {
     return topTen
 }
 console.log(getTopTen(flightCountsArr));
-
-
 
 
 module.exports = {
