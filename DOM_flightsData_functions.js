@@ -72,7 +72,7 @@ function selectSourceAirport() {
     };
         };
 
- // clearing the content sources:
+ // clearing content sources:
  //https://www.tutorialspoint.com/how-to-clear-the-content-of-a-div-using-javascript#:~:text=Using%20the%20innerHTML%20Property&text=When%20we%20assign%20an%20empty,element%2C%20including%20the%20div%20element.       
  //https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
   

@@ -3,6 +3,8 @@
 
 //31.03: nothing working here. removes values in flightsDataMap.json when logged in console
 
+// 31.03: this code is now defunct; kept for training purposes/use in other functions
+
 
 const {mergedData, mergedFlightsDataMap} = require("./main.js");
 const {createRouteIdentifier, countFlightsByID, flightCountsObj} = require("./routeIdentifier.js");

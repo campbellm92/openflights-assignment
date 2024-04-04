@@ -12,12 +12,11 @@ function createRouteIdentifier(flight) {
     if (sourcePortName < destinationPortName) {
         return `${sourcePortName} to/from ${destinationPortName}`;
     }else {
-        return `${sourcePortName} to/from ${destinationPortName}`;
-        ;
-    };
+        return `${destinationPortName} to/from ${sourcePortName}`;
+    }
 };
 
-//console.log(createRouteIdentifier(mergedFlightsDataMap));
+//console.log(createRouteIdentifier(mappedFlightsData));
 
 // function for counting routes: 
 function countRoutes(flights) { 

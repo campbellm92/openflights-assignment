@@ -1,0 +1,14 @@
+{
+  "name": "openflights-assignment",
+  "version": "1.0.0",
+  "description": "This is a university assignment completed as part of my Graduate Certificate in Information Technology (Web Development)",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

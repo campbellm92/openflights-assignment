@@ -6,7 +6,7 @@ function getFlightByFlightNum(mergedFlightsDataMap, flightNum) {
     return mergedFlightsDataMap.find(getFlight => getFlight["Flight Number"] === flightNum) // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
     };
 const flight = getFlightByFlightNum(mergedFlightsDataMap, 10600);
-//console.log(flight);
+console.log(flight);
 
 // function for finding flight by source airport
 
@@ -54,11 +54,7 @@ function getFlightByCodeshare(mergedFlightsDataMap, codeshareValue) {
         return codeshareArr
 };
 const flightByCodeshareValue = getFlightByCodeshare(mergedFlightsDataMap, false);
-//console.log(flightByCodeshareValue); // returning empty array; update: use bracket notation instead of dot notation
-
-
-// const codeshareFindTrue = mergedFlightsDataMap.find(flightCodeshare => flightCodeshare.codeshare)
-// ^cumbersome
+//console.log(flightByCodeshareValue); 
 
 
 

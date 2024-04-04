@@ -1,11 +1,14 @@
 const fs = require("fs");
-const airportsData = fs.readFileSync("A2_Airports.json", "utf8");
-const flightsData = fs.readFileSync("A2_Flights.json", "utf8");
+const path = require("path");
+const airportsDataPath = path.join(__dirname, "A2_Airports.json");
+const flightsDataPath = path.join(__dirname, "A2_Flights.json");
+const airportsData = fs.readFileSync(airportsDataPath, "utf8");
+const flightsData = fs.readFileSync(flightsDataPath, "utf8");
 const airports = JSON.parse(airportsData);
 const flights = JSON.parse(flightsData);
 
-// merge the datasets
 
+// merge the datasets
 function mergeDataSets(flights, airports) {
     return flights.map(flight => {
         const sourceAirportData = airports.find(airport => airport.id === flight.source_airport_id);
@@ -81,11 +84,13 @@ fs.writeFile("flightsDataMap.json", flightsJsonDataString, error => {
         console.log("File written successfully.");
     }
 });
-
+    
 
 module.exports = {
     mergedData,
-    mergedFlightsDataMap
+    mergedFlightsDataMap,
+    mergeDataSets,
+    mapFlightData
 };
 
 
@@ -155,7 +160,6 @@ let mergedData = flightsData.map(flight => {
         ...flight, // Spread the original flight data
         source_airport: sourceAirport,
         destination_airport: destinationAirport
-        // Include any additional transformations or data as needed
     };
 });
 */
