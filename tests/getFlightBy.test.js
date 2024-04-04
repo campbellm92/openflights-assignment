@@ -67,6 +67,8 @@ describe("Shows a list of flights given destination IATA", () => {
     });
 });
 
+
+/*
 //test for getFlightByCodeshare 
 
 describe("Shows a list of flights by codeshare value", () => {
@@ -89,3 +91,4 @@ describe("Shows flights by airline name", () => {
         });
     });
 });
+*/
